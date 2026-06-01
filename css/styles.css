@@ -199,3 +199,9 @@ aside {
     border-radius: 5px;
     font-weight: bold;
 }
+.profile-image {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
