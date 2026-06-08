@@ -205,3 +205,26 @@ aside {
     display: block;
     margin: 20px auto;
 }
+.resume {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #388E3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.featured-project {
+    background: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
