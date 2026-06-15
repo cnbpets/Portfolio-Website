@@ -279,7 +279,7 @@ aside {
 }
 
 
-/* Makes Android screenshots look like phone screens */
+
 
 .project-image {
     display: block;
@@ -298,7 +298,7 @@ aside {
 }
 
 
-/* Make the gallery screenshots match */
+
 
 .gallery figure {
     background: white;
@@ -317,7 +317,7 @@ aside {
 }
 
 
-/* Give the app screenshots a slight hover effect */
+
 
 .project-image:hover {
     transform: translateY(-5px);
@@ -329,4 +329,56 @@ aside {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.gallery figure {
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 18px;
+
+    width: 280px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+
+    text-align: center;
+}
+
+
+.gallery img {
+    width: 220px;
+    height: auto;
+
+    border-radius: 20px;
+
+    border: 6px solid #222;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+
+    transition: transform 0.2s ease;
+}
+
+
+.gallery img:hover {
+    transform: translateY(-8px);
+}
+
+
+.gallery figcaption {
+    margin-top: 15px;
+
+    font-weight: bold;
+
+    color: #333;
 }
